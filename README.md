@@ -285,7 +285,7 @@ Los datos se persisten en un archivo JSON (`data.json`) con las siguientes colec
 - `eventos`: Almacena eventos y ferias programadas
 - `counters`: Contadores para generacion de IDs automaticos
 
-## Caracteristicas Tecnicas
+## Caracteristicas Técnicas
 
 - Servidor Express configurado con middleware JSON
 - Archivos estaticos servidos desde `public/`
@@ -295,18 +295,3 @@ Los datos se persisten en un archivo JSON (`data.json`) con las siguientes colec
 - Arquitectura RESTful
 - Separacion estricta de capas
 - Un solo nodo de deployment
-
-## Notas Importantes
-
-- No se implementa autenticacion (fuera de alcance)
-- El archivo de datos JSON se crea automaticamente en el directorio del proyecto
-- Todos los servicios corren en un solo proceso Node.js
-- La separacion de capas es logica, no fisica (mismo nodo)
-
-## Autor
-
-Desarrollado para la Asociacion de Artesanas de Saraguro
-
-## Licencia
-
-ISC
